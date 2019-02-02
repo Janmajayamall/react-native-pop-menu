@@ -21,9 +21,8 @@ export default class Menu extends React.PureComponent {
     left: PropTypes.number,
     visible: PropTypes.bool,
     arrowPosition: PropTypes.oneOf(['topRight', 'topLeft', 'topCenter']),
-    onVisible: PropTypes.func.isRequired,
-    contentStyle: View.propTypes.style,
-  }
+    onVisible: PropTypes.func.isRequired
+    }
 
   static defaultProps = {
     top: 74,
